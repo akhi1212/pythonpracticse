@@ -1,0 +1,8 @@
+t = ("ama",)
+p =("tuple2","tuple3", "tuple4")
+s = tuple()
+print(t)
+print("This is type: ",type(t))
+print("The size of tuple is: ",len(t))
+print("This size of p tuple is: ", len(p))
+print("This size of s tuple is: ", len(s))

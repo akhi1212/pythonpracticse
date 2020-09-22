@@ -1,0 +1,5 @@
+firstString = input("please enter your first string")
+secondString = input("please enter your second string")
+thidString = input("please enter your third string")
+final_value = " ".join(sorted(firstString  + secondString + thidString))
+print(final_value)

@@ -1,0 +1,18 @@
+from Nitin Aran (privately):
+Sequence of operations is given as a string which are separated by a single space. The following operations can be specified:
+•    An integer X (from 0 to 220 -1): we push this number on the stack
+•    “POP”: remove the topmost number from the stack
+•    “DUP”: push a duplicate of the topmost number on the stack
+•    “+”: pop two topmost elements, perform the sum, and push the sum on the stack
+•    “-“: pop two topmost elements, substract the second from the first (topmost), and push the difference on the stack
+After processing all the operations, return the topmost value from the stack
+Errors:
+•    An overflow in addition or underflow in subtraction
+•    While trying to perform an operation, and we do not have enough elements in the stack
+•    After all operations, if the stack is empty
+For e.g. “13 DUP 4 POP 5 DUP + DUP + -“
+Write a function for this behaviour where s is the string to be supplied
+def solutions(s):
+
+		
+	

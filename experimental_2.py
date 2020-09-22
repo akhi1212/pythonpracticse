@@ -1,0 +1,11 @@
+t = ["Sam" , "Tam", "Lam"]
+print("Item index value 1 printed here", t[1])
+print("Item index value 2 printed here",t[2])
+print("Item index value -1 printed here",t[-1])
+print("Item index value :2 printed here", t[:2])
+print("Item index value :1 printed here", t[:1])
+print("Item index value 1: printed here", t[1:])
+print("Item index value 2: printed here", t[2:])
+print("Item index value 1:0 printed here", t[1:0])
+print("Item index value 0:2 printed here", t[0:2])
+print(t)
